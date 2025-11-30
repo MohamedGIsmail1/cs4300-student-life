@@ -14,7 +14,7 @@ body {
 
 /* HEADER */
 header {
-    background: #283593;
+    background: #003366;  /* color change - Amber Claudio */
     color: white;
     padding: 1rem 2rem;
     display: flex;
@@ -25,6 +25,13 @@ header {
 .logo {
     font-size: 1.4rem;
     font-weight: bold;
+}
+
+.logo {                       /* logo next to the title - Amber Claudio */ 
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: flex;            
+    align-items: center;      /* vertical alignment */
 }
 
 nav ul {
@@ -67,7 +74,7 @@ main {
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background: #ff7043;
+    background: #E0D0C9; /* color changes - Amber Claudio */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -106,6 +113,13 @@ footer {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
+.card-icon {              /* icon in events - Amber Claudio */
+    width: 30px;            
+    height: 30px;
+    vertical-align: middle;  
+    margin-right: 8px;       
+}
+
 .card h2 {
     margin-bottom: 1rem;
 }
@@ -124,9 +138,9 @@ main {
 }
 
 nav a.active {
-    color: #ff8c42;
+    color: #B3C7E6; /* color changes - Amber Claudio */
     font-weight: bold;
-    border-bottom: 2px solid #ff8c42;
+    border-bottom: 2px solid #B3C7E6; /* color changes - Amber Claudio */
 }
 
 /* Smooth hover color change */
@@ -138,7 +152,17 @@ nav a {
 
 /* Hover effect */
 nav a:hover {
-    background-color: #ff8c42;
+    background-color: #B3C7E6; /* color changes - Amber Claudio */
     color: white;
     padding: 6px 14px; /* slight grow */
+}
+
+.team-photo /* icon in name card - Amber Claudio */
+{
+    width: 40px;           
+    height: 40px;         
+    object-fit: cover;      
+    border-radius: 8px;     
+    display: block;
+    margin: 0;       
 }
