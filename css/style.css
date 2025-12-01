@@ -31,7 +31,7 @@ header {
     font-size: 1.4rem;
     font-weight: bold;
     display: flex;            
-    align-items: center;      /* vertical alignment */
+    align-items: center;      
 }
 
 nav ul {
@@ -120,8 +120,16 @@ footer {
     margin-right: 8px;       
 }
 
-.card h2 {
+.card h2 {               /* icon in wellness - Amber Claudio */
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.card-icon {             /* icon in wellness - Amber Claudio */
+    width: 30px;
+    height: 30px;
 }
 
 .card p {
@@ -154,7 +162,7 @@ nav a {
 nav a:hover {
     background-color: #B3C7E6; /* color changes - Amber Claudio */
     color: white;
-    padding: 6px 14px; /* slight grow */
+    padding: 6px 14px;
 }
 
 .team-photo /* icon in name card - Amber Claudio */
