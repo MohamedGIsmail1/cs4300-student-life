@@ -14,7 +14,7 @@ body {
 
 /* HEADER */
 header {
-    background: #003366;  /* color change - Amber Claudio */
+    background: #003366;  
     color: white;
     padding: 1rem 2rem;
     display: flex;
@@ -31,7 +31,7 @@ header {
     font-size: 1.4rem;
     font-weight: bold;
     display: flex;            
-    align-items: center;      
+    align-items: center;      /* vertical alignment */
 }
 
 nav ul {
@@ -70,19 +70,26 @@ main {
     margin-bottom: 1rem;
 }
 
+/* BUTTON STYLES - UPDATED */
 .btn {
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background: #E0D0C9; /* color changes - Amber Claudio */
+    background: #85a8d4; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: all 0.3s ease; /* Smooth transition */
+    border: 2px solid #E0D0C9; /* Add border for better effect */
 }
 
 .btn:hover {
-    opacity: 0.9;
+    background: #003366; /* Bold dark blue on hover */
+    color: white;
+    border-color: #003366;
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 51, 102, 0.3); /* Add shadow on hover */
 }
 
 /* FOOTER */
@@ -113,23 +120,15 @@ footer {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.card-icon {              /* icon in events - Amber Claudio */
+.card-icon {            
     width: 30px;            
     height: 30px;
     vertical-align: middle;  
     margin-right: 8px;       
 }
 
-.card h2 {               /* icon in wellness - Amber Claudio */
+.card h2 {
     margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 8px; 
-}
-
-.card-icon {             /* icon in wellness - Amber Claudio */
-    width: 30px;
-    height: 30px;
 }
 
 .card p {
@@ -146,9 +145,9 @@ main {
 }
 
 nav a.active {
-    color: #B3C7E6; /* color changes - Amber Claudio */
+    color: #B3C7E6; 
     font-weight: bold;
-    border-bottom: 2px solid #B3C7E6; /* color changes - Amber Claudio */
+    border-bottom: 2px solid #B3C7E6;
 }
 
 /* Smooth hover color change */
@@ -160,12 +159,12 @@ nav a {
 
 /* Hover effect */
 nav a:hover {
-    background-color: #B3C7E6; /* color changes - Amber Claudio */
+    background-color: #B3C7E6; 
     color: white;
-    padding: 6px 14px;
+    padding: 6px 14px; 
 }
 
-.team-photo /* icon in name card - Amber Claudio */
+.team-photo
 {
     width: 40px;           
     height: 40px;         
