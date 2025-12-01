@@ -22,16 +22,17 @@ header {
     align-items: center;
 }
 
-.logo {
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-
 .logo {                       /* logo next to the title - Amber Claudio */ 
     font-size: 1.4rem;
     font-weight: bold;
     display: flex;            
-    align-items: center;      /* vertical alignment */
+    align-items: center;      
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
 
 nav ul {
